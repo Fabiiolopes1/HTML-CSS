@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+:root{
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #021F59;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    padding: 1px;
+}
+
+
+header{
+    background-color: #c0c0c0;
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 3em;
+}
+
+header > nav {
+    text-align: justify;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+main{
+    background-color: white;
+    height: auto;
+    min-width: 300px;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
